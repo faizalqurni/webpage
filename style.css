@@ -1,0 +1,84 @@
+*{
+	font-family: open sans,arial;
+	margin: 0;
+	border: none;
+}
+
+#hijaumuda{
+	background: #39a175;
+	height: auto;
+	width: 100%;
+	padding-top: 100px;
+}
+
+#hijautua{
+	background: #2f956a;
+	height: auto;
+	width:47%;
+	color: #fff;
+	margin: auto;
+	padding: 50px;
+}
+img{
+	position: relative;
+	margin: 10px 0 0 -100px;
+}
+h1{
+	font-family: museofont;
+	font-size: 50px;
+	margin-top: -80px;
+	margin-left: 20px;
+}
+p{
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 30px;	
+}
+
+a{
+	color: #a4eecf;
+	text-decoration: none;
+	font-style: italic;
+}
+a:hover{
+	opacity: 0.7;
+}
+
+#putih{
+	width: 45%;
+	margin: auto;
+}
+small{
+	font-size: 11px;
+	color:#8d8d8d;
+}
+
+table{
+	margin-left: 20px;
+}
+input[type="text"]{
+	height: 25px;
+	width: 80%;	
+}
+td{
+	height: 35px;
+}
+select{
+	height: 25px;
+}
+textarea{
+	width: 80%;
+	height: 100px;
+}
+
+@font-face {
+    font-family: 'museofont';
+    src: url('img/font/museo.eot');
+    src: url('img/font/museo.eot?#iefix') format('embedded-opentype'),
+         url('img/font/museo.woff') format('woff'),
+         url('img/font/museo.ttf') format('truetype'),
+         url('img/font/museo.svg#museo700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
